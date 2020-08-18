@@ -1,0 +1,72 @@
+*/
+
+body {
+  /* Box-model */
+  padding: 0;
+
+  /* Positioning */
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  /* Typography */
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+
+  /* Visual */
+  background: #efeee7;
+}
+
+header {
+  background: #d21034;
+}
+
+h1 {
+  /* Box-model */
+  padding: 20px 0;
+
+  /* Positioning */
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+
+  /* Typography */
+  color: #eee;
+  text-align: center;
+
+  /* Visual */
+  background: #333;
+}
+
+/*
+  Stylesheet #2
+  =============
+  Here we can define more styles for our HTML page.
+  Take note: The rules here will take precedence over stylesheet #1.
+  That's because #2's rules take effect after #1's, superseding
+  any rules delineated in the older document.
+*/
+
+h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  
+  .container {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+
+  
